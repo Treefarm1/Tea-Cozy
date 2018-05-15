@@ -45,7 +45,7 @@ body {
   display: flex;
   width: 100%;
   padding-top: 61px;
-  height: 3000px;
+  height: auto;
   flex-direction: column;
   align-items: center;
 }
@@ -57,9 +57,10 @@ body {
   width: 1200px;
   justify-content: center;
   align-items: center;
-
-
+  background-position: center;
+  border: 1px solid green;
 }
+
 .mission_middle {
   display: flex;
   flex-direction: column;
@@ -68,11 +69,7 @@ body {
   height: auto;
   align-items: center;
   text-align: center;
-
-
-
 }
-
 
 .mission_middle h2 {
   display: flex;
@@ -80,18 +77,143 @@ body {
   padding: 10px;
   width: 100%;
   justify-content: center;
-
-
-
-
 }
+
 .mission_middle h4 {
   display: flex;
   margin: 0;
   padding: 10px;
   width: 100%;
   justify-content: center;
+}
 
 
+/* Tea of The Month Heading */
+
+.tea_month {
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+  border: 1px solid blue;
+  padding: 70px 25px;
+}
+
+.tea_month h2 {
+  margin: 0;
+  padding: 10px 0px;
+  width: 100%;
+  border: 1px solid seashell;
+  text-align: center;
+}
+
+.tea_month h4 {
+  margin: auto;
+  padding: 10px 0px;
+  width: 100%;
+  border: 1px solid seashell;
+  text-align: center;
+}
+
+.menu_photos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  border: 1px solid seashell;
+  margin: 0;
+  width: 100%;
+}
+
+.individual_photos {
+  display: inline-block;
+}
+
+.individual_photos img {
+  display: block;
+  height: 200px;
+  width: 300px;
+  padding: 5px;
+  margin: 10px;
+  /*margin: 10px;*/
+}
+
+.individual_photos h4 {
+  display: block;
+  align-content: center;
+  justify-content: center;
+  width: 300px;
+}
+
+
+/*Store Locations*/
+
+.store_locations {
+  display: flex;
+  flex-direction: column;
+  background-image: url("../images/img-locations-background.jpg");
+  justify-content: center;
+  align-items: center;
+  width: 1200px;
+  height: 500px;
+  padding-top: 70px;
+  background-repeat: no-repeat;
+  border: 1px solid red;
+  background-position: center;
+}
+
+.store_locations h2 {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin: 0px;
+  padding: 10px;
+}
+
+.individual_stores_flex {
+  display: flex;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  border: 1px solid yellow;
+}
+
+.individual_stores {
+  display: flex;
+  flex-wrap: wrap;
+
+  background-color: black;
+  opacity: 1;
+  width: 300px;
+  height: auto;
+  margin-top: -10px;
+
+  border: 1px solid green;
+}
+
+.individual_stores, h1, p {
+  justify-content: center;
+  text-align: center;
+  margin: 15px 20px;
+  padding: 10px;
+
+  /*
+  padding: 10px 0px;
+
+  margin: 5px 20px;
+  */
+}
+
+/* Footer */
+
+.contact {
+  display: flex;
+  height: 200px;
+  border: 1px solid green;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+footer {
+  padding-left: 20px;
 
 }
